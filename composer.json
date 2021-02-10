@@ -1,0 +1,25 @@
+{
+    "name": "dziem/metabasecontainer",
+    "description": "A centered div container for metabase iframe",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dziem",
+            "email": "dziemboh@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dziem\\MetabaseContainer\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dziem\\MetabaseContainer\\MetabaseContainerComponentsServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
